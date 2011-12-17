@@ -1,0 +1,59 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree . 
+*/
+
+
+#main_logo {
+	height: 200px;
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background: url('main_logo.png') no-repeat center;
+	
+}
+
+#bg_city_scape {
+	height: 200px;
+	background: url('bg_city_scape');
+}
+	
+#wahdler_email {
+	    border: 2px solid #FF9800;
+	    border-radius: 4px 4px 4px 4px;
+		border-width: 5px;
+	    height: 50px;
+	    width: 400px;
+		font-size: 40px;
+		padding: 2px;
+}
+
+#form_container {
+	height: 100px;
+	width: 500px;
+    margin: 0 350px;
+	font-margin: 0 20px;
+    
+}
+
+#new_wahdler {
+	margin:auto;
+	height: 40px;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 40px;
+	color: #858688;
+	width: 800px;
+	margin: 0 auto;
+}
+
+#tagline {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 40px;
+	color: #858688;
+	width: 800px;
+	margin: 0 auto;
+	
+}
