@@ -16,37 +16,32 @@
 	
 }
 
-#bg_city_scape {
-	height: 200px;
-	background: url('bg_city_scape');
-}
 	
 #wahdler_email {
 	    border: 2px solid #FF9800;
 	    border-radius: 4px 4px 4px 4px;
 		border-width: 5px;
-	    height: 50px;
-	    width: 400px;
-		font-size: 40px;
-		padding: 2px;
+		width: 500px;
+		height: 40px;
+		font-size: 20px;
+	}
+
+#submit_button {
+	color: orange;
 }
 
 #form_container {
-	height: 100px;
-	width: 500px;
-    margin: 0 350px;
-	font-margin: 0 20px;
-    
+	margin: 0 auto;
+
 }
 
+
 #new_wahdler {
-	margin:auto;
-	height: 40px;
-	font-family: 'Varela Round', sans-serif;
-	font-size: 40px;
-	color: #858688;
-	width: 800px;
 	margin: 0 auto;
+	color: #858688;
+	font: 40px 'Varela Round', sans-serif;
+	width: 500px;
+	height: 40px;
 }
 
 #tagline {
@@ -56,4 +51,11 @@
 	width: 800px;
 	margin: 0 auto;
 	
+}
+
+
+body {
+	margin: 0 auto;
+	width: 960px;
+
 }

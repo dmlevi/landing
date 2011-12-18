@@ -1,4 +1,19 @@
+<div id="form_container">
+  <p> 
+      <div id="tagline">
+       <p>Group Travel Planner sent from the future coming soon...</p>
+     </div>
 
+    
+      <%= form_for @wahdler do |f| %>
+      <%= f.text_field :email, placeholder: "Enter your email" %>
+    
+      <div id= "submit_button">
+          <%= f.submit "Submit" %>
+      </div>
+      <% end %>
+  </p>      
+</div>
 
 
 

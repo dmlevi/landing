@@ -1,35 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
+<header>
   <title>Wahdle</title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-</head>
+</header>
 
-<body>
-  
-<div id="bg_city_scape">
-	
+
 <div id="main_logo"></div>
- 
-<div id="form_container">
-     
-  <%= form_for @wahdler do |f| %>
-    <%= f.text_field :email, placeholder: "Enter your email" %>
-  <% end %>
 
-</div>
- 
-<div id="tagline">
-   <p>Group Travel Planner sent from the future coming soon...</p>
-</div>
- 
-
-</div> 
-	
+<body> 
 <%= notice %>
 
+<%= yield %>
 
 
 </body>
