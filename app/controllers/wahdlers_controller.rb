@@ -4,6 +4,10 @@ class WahdlersController < ApplicationController
     @wahdler = Wahdler.new
   end
   
+  def new
+    @wahdlers = Wahdler.all
+  end
+  
   def create
     @wahdler = Wahdler.new(params[:wahdler])
     if @wahdler.save  
