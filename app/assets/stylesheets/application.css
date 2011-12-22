@@ -33,6 +33,9 @@
 
 }
 
+div.clr {
+	clear: both;
+}
 
 #new_wahdler {
 	margin: 0 auto;
@@ -44,17 +47,18 @@
 
 
 
+#twitter_button {
+	float: right;
+}
 #button input {
-	color: white;
-	background-color: silver;
+	color: #333333;
+	background-color: #DDDDDD;
 	width: 100px;
-	height: 35px;
-	border-radius: 20px;
-	font-size: 20px;
+	height: 25px;
+	border-radius: 10px;
 	float: right;
 	margin: 10px;
-	font-family: 'Varela Round';
-   
+	font: 15px 'Varela Round';
 }
 
 #tagline {
